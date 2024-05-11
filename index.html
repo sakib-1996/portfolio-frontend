@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <style>
+        .reveal {
+            position: relative;
+            transform: translateY(80px);
+            opacity: 0;
+            transition: all 1s ease;
+        }
+
+        .reveal.revealActive {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Header Start -->
+        <header class="header float-start w-100 fixed-top">
+            <div class="container">
+                <div class="header-inner">
+                    <nav class="p-0 navbar navbar-expand-lg">
+                        <a class="p-0 navbar-brand d-flex align-items-center logo" href="#">
+                            <img src="https://codershut.in/images/logo.svg" class="img-fluid" alt="logo">
+                        </a>
+                        <button class="p-0 border-0 shadow-none navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="w-auto h-auto navbar-toggler-icon">
+                                <img src="https://codershut.in/images/menu.png" alt="Menu">
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto align-items-lg-center">
+                                <li class="nav-item active">
+                                    <a class="p-0 nav-link" href="#">home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="p-0 nav-link" href="#">about</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="p-0 nav-link" href="#">services</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="p-0 nav-link " href="#">portfolio</a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a class="p-0 nav-link" href="#">career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="header-btn btn btn-skin w-100 border-0 shadow-none">Get
+                                        In
+                                        Touch</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+
+        <div class="bg-green">
+            <div class="container">
+                <div class="row home-banner">
+                    <div class="col-12 col-md-6">
+                        <p class="banner-title text-white">
+                            Shaping Tomorrow's Digital Landscape, Today
+                        </p>
+                        <p class="pt-3 pb-3 page-extra-small-description text-white opacity-70 fw-normal">
+                            Empowering Businesses through Cutting-edge Technology and Collaborative Innovation for a
+                            Digitally
+                            Dynamic Future.
+                        </p>
+                        <a href="#" class="btn btn-lightGreen mt-3">Explore Services</a>
+
+                    </div>
+                    <div class="col-12 col-md-6 pt-5 text-center">
+                        <img src="https://codershut.in/images/banner-image.png" alt="Codershut Banner Image"
+                            class="img-fluid mx-auto">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container px-sm-4 px-0 overflow-hidden">
+                <div class="logo-section">
+                    <div class="text-center">
+                        <p class="text-center fw-semibold text-white page-small-description pb-4 mb-3 px-4">Trusted by
+                            the
+                            world's best companies</p>
+                    </div>
+                    <div class="d-flex justify-content-center overflow-x-auto">
+                        <div class="col-md-1 col-3">
+                            <img src="https://codershut.in/images/hbh.png" alt="Codershut Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-1 col-3">
+                            <img src="https://codershut.in/images/mahag.png" alt="Company Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-1 col-3">
+                            <img src="https://codershut.in/images/baufeld.png" alt="Company Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-1 col-3">
+                            <img src="https://codershut.in/images/reich.png" alt="Company Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-1 col-3">
+                            <img src="https://codershut.in/images/emoky.png" alt="Company Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-1 col-3">
+                            <img src="https://codershut.in/images/schramm.png" alt="Company Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-1 col-3">
+                            <img src="https://codershut.in/images/2hh.png" alt="Company Logo" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Codershut float-start w-100">
+                <div class="container">
+                    <div class="bg-yellow text-center codershut-inner ">
+                        <div class="badge badge-white">About Us</div>
+                        <h3 class="text-green fw-bold pt-2 pb-1 mb-3 page-title">Who is Codershut?</h3>
+                        <p class="text-green fw-semibold page-description pb-1 mb-sm-3 mb-4 opacity-70"
+                            style="text-align: justify;">
+                            Codershut isn't just an
+                            IT company; we're the architects of your digital aspirations. Since our establishment in
+                            2021,
+                            we've
+                            been dedicated to propelling businesses into the future through innovative technology
+                            solutions.
+                            We're a
+                            team of passionate experts who thrive on turning challenges into opportunities, complexity
+                            into
+                            simplicity, and ideas into reality.
+                        </p>
+                        <a href="#" class="btn btn-green">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="float-start w-100 services-block ">
+            <div class="container">
+                <div class="row align-items-center" id="services">
+                    <div class="col-lg-5 col-12 reveal">
+                        <div class="badge badge-skyBlue mb-3">Services</div>
+                        <h3 class="text-green fw-bold pb-2 page-title">What You Will Get?</h3>
+                        <p class="fw-semibold text-green page-description">
+                            At Codershut, you'll receive tailored IT solutions that elevate your business. From
+                            cutting-edge
+                            software development to intuitive web design, our expertise ensures innovation meets
+                            functionality.
+                            Expect a partnership that brings your digital aspirations to life.
+                        </p>
+                    </div>
+                    <div class="col-lg-7 col-12 reveal">
+                        <div class="row">
+                            <div class="col-sm-6 mt-5">
+                                <div class="services-box web-devlopment-bg">
+                                    <div class="services-icon mb-4 pb-1">
+                                        <img src="https://codershut.in/images/Web-Development.png" alt="Web Devlopment"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="services-content">
+                                        <h3 class="text-green fw-semibold pb-3 mb-1 page-larg-description">Web
+                                            Development
+                                        </h3>
+                                        <p class="fw-medium text-green opacity-70">
+                                            Elevate your brand with our web development prowess. From user-centric
+                                            designs to
+                                            seamless navigation, we build websites that captivate audiences and drive
+                                            business
+                                            growth.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-sm-0 mt-4">
+                                <div class="services-box mobile-development-bg">
+                                    <div class="services-icon mb-4 pb-1">
+                                        <img src="https://codershut.in/images/Mobile-Development.png"
+                                            alt="Mobile Devlopment" class="img-fluid">
+                                    </div>
+                                    <div class="services-content">
+                                        <h3 class="text-green fw-semibold pb-3 mb-1 page-larg-description">Mobile
+                                            Development
+                                        </h3>
+                                        <p class="fw-medium text-green opacity-70">
+                                            From iOS to Android, our mobile app development expertise brings your vision
+                                            to life
+                                            across platforms. We engineer seamless, user-centric applications that
+                                            connect you
+                                            with your audience on their devices of choice.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-4>
+                                <div class=" services-box ui-ux-design-bg">
+                                <div class="services-icon mb-4 pb-1">
+                                    <img src="https://codershut.in/images/Ui-UX-Design.png" alt="UI,UX Design"
+                                        class="img-fluid">
+                                </div>
+                                <div class="services-content">
+                                    <h3 class="text-green fw-semibold pb-3 mb-1 page-larg-description">UI,UX
+                                        Design
+                                    </h3>
+                                    <p class="fw-medium text-green opacity-70">
+                                        We create immersive user experiences through intuitive interfaces. Our
+                                        designs blend
+                                        aesthetics and usability, ensuring that every interaction is a seamless and
+                                        delightful journey for your customers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 services-wrapper">
+                            <div class="services-box degital-marketing">
+                                <div class="services-icon mb-4 pb-1">
+                                    <img src="https://codershut.in/images/Degital-Marketing.png" alt="Degital Marketing"
+                                        class="img-fluid">
+                                </div>
+                                <div class="services-content">
+                                    <h3 class="text-green fw-semibold pb-3 mb-1 page-larg-description">Degital
+                                        Marketing
+                                    </h3>
+                                    <p class="fw-medium text-green opacity-70">
+                                        Amplify your online presence with our strategic digital marketing solutions.
+                                        From
+                                        SEO and social media to content strategies, we navigate the digital
+                                        landscape to
+                                        boost your visibility, engagement, and conversion rates.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-start w-100 bg-green reveal">
+            <div class="container pb-4 mt-5 pe-0 ps-0">
+                <div class="text-center">
+                    <h4 class="text-white fw-semibold page-title">We Work With</h4>
+                </div>
+
+                <div class="mt-4">
+                    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-mobile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-mobile" type="button" role="tab" aria-controls="nav-mobile"
+                            aria-selected="true">Mobile</button>
+                        <button class="nav-link" id="nav-front-end-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-front-end" type="button" role="tab" aria-controls="nav-front-end"
+                            aria-selected="false">Front End</button>
+                        <button class="nav-link" id="nav-back-end-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-back-end" type="button" role="tab" aria-controls="nav-back-end"
+                            aria-selected="false">Back End</button>
+
+                        <button class="nav-link" id="nav-database-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-database" type="button" role="tab" aria-controls="nav-database"
+                            aria-selected="false">Database</button>
+
+                        <button class="nav-link" id="nav-CMS-tab" data-bs-toggle="tab" data-bs-target="#nav-CMS"
+                            type="button" role="tab" aria-controls="nav-CMS" aria-selected="false">CMS</button>
+
+                        <button class="nav-link" id="nav-DevOps-tab" data-bs-toggle="tab" data-bs-target="#nav-DevOps"
+                            type="button" role="tab" aria-controls="nav-DevOps" aria-selected="false">Infra &amp;
+                            DevOps</button>
+
+                    </div>
+                </div>
+
+                <div class="scroll_bar">
+                    <div class="tab-content overflow-x-auto d-flex justify-content-center mt-2" id="nav-tabContent">
+
+                        <div class="tab-pane fade show active" id="nav-mobile" role="tabpanel"
+                            aria-labelledby="nav-mobile-tab" tabindex="0">
+                            <div class="d-flex justify-content-center ">
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/Android.png" alt="Android"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Android</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/ios.png" alt="iOS" class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">iOS</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/Flutter.png" alt="Flutter"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Flutter</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/React Native.png" alt="React Native"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">React Native</p>
+                                </div>
+
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/Titanium.png" alt="Titanium"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Titanium</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/Swift.png" alt="Swift" class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Swift</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-front-end" role="tabpanel"
+                            aria-labelledby="nav-front-end-tab" tabindex="0">
+                            <div class="d-flex justify-content-center ">
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/anguler icon.png" alt="Angular Js"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Angular Js</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/Vue.png" alt="Vue Js" class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Vue Js</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/reactjs icon.png" alt="React Js"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">React Js</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/css3 icon.png" alt="Css3"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Css3</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/html5  icon.png" alt="Html5"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Html5</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/javascript icon.png" alt="JavaScript"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">JavaScript</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-back-end" role="tabpanel" aria-labelledby="nav-back-end-tab"
+                            tabindex="0">
+                            <div class="d-flex justify-content-center ">
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/cakephp icon.png" alt="Cakephp"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Cakephp</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/codelgnitor icon.png" alt="Codeignitor"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Codeignitor</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/laravel icon.png" alt="Laravel"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Laravel</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/nodejs icon.png" alt="Node Js"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Node Js</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/slim icon.png" alt="Slim"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Slim</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/yii icon.png" alt="Yii"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Yii</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-database" role="tabpanel" aria-labelledby="nav-database-tab"
+                            tabindex="0">
+                            <div class="d-flex justify-content-center ">
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/firebase db icon.png" alt="Firebase DB"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Firebase DB</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/mongodb icon.png" alt="MongoDB"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">MongoDB</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/my sql icon.png" alt="My SQL"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">My SQL</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/postgresql icon.png" alt="PostgreSQL"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">PostgreSQL</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/sqlite icon.png" alt="SQLite"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">SQLite</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/sqlserver icon.png" alt="SQL Server"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">SQL Server</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="nav-CMS" role="tabpanel" aria-labelledby="nav-CMS-tab"
+                            tabindex="0">
+                            <div class="d-flex justify-content-center ">
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/build icon.png" alt="Build"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Build</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/code icon.png" alt="Code"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Code</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/Deploy icon.png" alt="Deploy"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Deploy</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/monitor icon.png" alt="Moniter"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Moniter</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/paln icon.png" alt="Paln"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Paln</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="nav-DevOps" role="tabpanel" aria-labelledby="nav-DevOps-tab"
+                            tabindex="0">
+                            <div class="d-flex justify-content-center ">
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/build icon.png" alt="Build"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Build</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/code icon.png" alt="Code"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Code</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/Deploy icon.png" alt="Deploy"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Deploy</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/monitor icon.png" alt="Moniter"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Moniter</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/paln icon.png" alt="Paln"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Paln</p>
+                                </div>
+                                <div
+                                    class="work d-flex justify-content-center align-items-center bg-lightGreen flex-column">
+                                    <img src="https://codershut.in/images/release icon.png" alt="Release"
+                                        class="img-fluid pb-2">
+                                    <p class="fw-semibold text-white page-description">Release</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="float-start w-100 services-block reveal">
+            <div class="container">
+                <div class="headding mb-sm-5 mb-4 pb-sm-2 pb-3 text-center ">
+                    <h3 class="text-green fw-bold pb-3 page-title">Why Choose Codershut</h3>
+                    <p class="text-green fw-semibold page-description opacity-70">
+                        Experience unwavering support, unmatched satisfaction, a commitment to equality, <br> and
+                        transparent
+                        collaboration - all in one dynamic partnership.
+                    </p>
+                </div>
+            </div>
+            <div class="container pe-sm-4 pe-0">
+                <div class="d-flex why-choose-inner overflow-x-auto">
+                    <div class="why-choose-box">
+                        <div class="bg-green why-choose ">
+                            <div class="badge">Support</div>
+                            <p class="page-description text-white fw-semibold mb-3 pe-3 me-3">
+                                Empowering You with Reliable Support
+                            </p>
+                            <div class="w-100">
+                                <img src="https://codershut.in/images/Ellipse21.png" class="ms-auto" alt="Ellipse">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-choose-box">
+                        <div class="bg-green why-choose ">
+                            <div class="badge">Satisfaction</div>
+                            <p class="page-description text-white fw-semibold mb-3 pe-3 me-3">
+                                Elevating Satisfaction Beyond Expectations.
+                            </p>
+                            <div class="w-100">
+                                <img src="https://codershut.in/images/Ellipse2.png" class="ms-auto" alt="Ellipse">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-choose-box">
+                        <div class="bg-green why-choose ">
+                            <div class="badge">Equality</div>
+                            <p class="page-description text-white fw-semibold mb-3 pe-3 me-3">
+                                Championing Equality in Every Solution.
+                            </p>
+                            <div class="w-100">
+                                <img src="https://codershut.in/images/Ellipse3.png" class="ms-auto" alt="Ellipse">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-choose-box">
+                        <div class="bg-green why-choose ">
+                            <div class="badge">Transparency</div>
+                            <p class="page-description text-white fw-semibold mb-3 pe-3 me-3">
+                                Navigating Your Journey with Utmost Transparency.
+                            </p>
+                            <div class="w-100">
+                                <img src="https://codershut.in/images/Ellipse4.png" class="ms-auto" alt="Ellipse">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="float-start w-100 services-block pt-0 reveal">
+            <div class="container">
+                <div class="headding mb-sm-5 mb-4 pb-sm-2 pb-3 text-center ">
+                    <div class="badge">Work</div>
+                    <h3 class="text-green fw-bold pb-2 page-title">Our Portfolio</h3>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-sm-6 col-12 mb-5">
+                        <div class="w-100 ">
+                            <img src="https://codershut.in/images/Rectangle38.png" class="w-100" alt="Rectangle">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center pt-1 mt-3 ">
+                            <h6 class="page-small-description fw-bold text-blue me-2">Brand application</h6>
+                            <a href="#"
+                                class="page-short-description text-blue opacity-50 fw-semibold d-block get-detail">
+                                Get Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-5">
+                        <div class="w-100 ">
+                            <img src="https://codershut.in/images/Rectangle34.png" class="w-100" alt="Rectangle">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center pt-1 mt-3 ">
+                            <h6 class="page-small-description fw-bold text-blue me-2">Ecommerce academy</h6>
+                            <a href="#"
+                                class="page-short-description text-blue opacity-50 fw-semibold d-block get-detail">
+                                Get Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-5">
+                        <div class="w-100 ">
+                            <img src="https://codershut.in/images/Rectangle32.png" class="w-100" alt="Rectangle">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center pt-1 mt-3 ">
+                            <h6 class="page-small-description fw-bold text-blue me-2">Haystack</h6>
+                            <a href="#"
+                                class="page-short-description text-blue opacity-50 fw-semibold d-block get-detail">
+                                Get Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-5">
+                        <div class="w-100 ">
+                            <img src="https://codershut.in/images/Rectangle30.png" class="w-100" alt="Rectangle">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center pt-1 mt-3 ">
+                            <h6 class="page-small-description fw-bold text-blue me-2">Brand application</h6>
+                            <a href="#"
+                                class="page-short-description text-blue opacity-50 fw-semibold d-block get-detail">
+                                Get Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-5">
+                        <div class="w-100 ">
+                            <img src="https://codershut.in/images/Rectangle28.png" class="w-100" alt="Rectangle">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center pt-1 mt-3 ">
+                            <h6 class="page-small-description fw-bold text-blue me-2">Ecommerce academy</h6>
+                            <a href="#"
+                                class="page-short-description text-blue opacity-50 fw-semibold d-block get-detail">
+                                Get Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-5">
+                        <div class="w-100 ">
+                            <img src="https://codershut.in/images/Rectangle36.png" class="w-100" alt="Rectangle">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center pt-1 mt-3 ">
+                            <h6 class="page-small-description fw-bold text-blue me-2">Crisp Chat - UI Components</h6>
+                            <a href="#"
+                                class="page-short-description text-blue opacity-50 fw-semibold d-block get-detail">
+                                Get Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-block text-center mt-sm-5 pt-1 ">
+                    <a href="#" class="btn btn-lightGreen">Discover More</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="float-start w-100 timeline-section reveal">
+            <div class="container pe-0">
+                <div class="text-center timeline-title ">
+                    <h3 class="page-title fw-bold text-green">Project Development Process</h3>
+                </div>
+                <div class="timeline-wrapper ">
+                    <div class="time-line-image overflow-x-auto timeline-wrapper-inner w-100 position-relative">
+                        <img src="https://codershut.in/images/timeline-img.png" alt="timeline">
+                        <ul class="d-flex align-items-center">
+                            <li>
+                                <div class="timeline-content text-center">
+                                    <h6 class="text-green fw-semibold page-medium-description ps-5">Brainstro- <br>
+                                        ming
+                                    </h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-content text-center">
+                                    <h6 class="text-green fw-semibold page-medium-description ps-4">Execution</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-content text-center">
+                                    <h6 class="text-green fw-semibold page-medium-description">Refining</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-content text-center">
+                                    <h6 class="text-green fw-semibold page-medium-description pe-4">Comceptia- <br>
+                                        lization
+                                    </h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-content text-center">
+                                    <h6 class="text-green fw-semibold page-medium-description pe-5">Finalization
+                                    </h6>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container py-5 reveal">
+            <div class="pb-5">
+                <div class="text-center">
+                    <span class="badge ">Testimonials</span>
+                    <h3 class="text-green fw-bold pb-2 page-title">What Our Clients Say</h3>
+                    <p class="text-green fw-semibold opacity-70">
+                        Hear How CodersHut Transformed Businesses <br> Directly from Our Satisfied Clients</p>
+                </div>
+            </div>
+
+
+            <div class="d-flex scroll_bar justify-content-between overflow-x-auto">
+                <div class="">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer float-start w-100 bg-green reveal">
+            <div class="footer-top bg-green">
+                <div class="container">
+                    <div class="text-center footer-top-content">
+                        <h3 class="text-white fw-bold page-title pb-3">Let’s Talk About Project</h3>
+                        <p class="text-white page-description opacity-70">Get in touch with our expert team of branding
+                            experts to
+                            <span class="d-sm-block d-inline-block"> your challenging Idea.</span>
+                        </p>
+                    </div>
+                    <div class="footer-btn d-flex align-items-center justify-content-center mx-auto">
+                        <div class="pe-2">
+                            <a href="#" class="btn btn-lightGreen border-0 shadow-none">WhatsApp</a>
+                        </div>
+                        <div class="ps-2">
+                            <a href="#" class="btn btn-skin border-0 shadow-none">Get In
+                                Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-green">
+                <div class="container">
+                    <div class="footer-middle footer-border">
+                        <div class="row">
+                            <div class="col-md-4 col-12 pb-md-0 pb-5">
+                                <a class="d-block" href="#">
+                                    <img src="https://codershut.in/images/logo.svg" alt="Footer Logo"
+                                        class="img-fluid"></a>
+                                <p class="text-white opacity-50 pt-4 fw-semibold">
+                                    Elevating Possibilities, Crafting Excellence: Your Digital Journey Starts Here with
+                                    CodersHut
+                                </p>
+                            </div>
+                            <div class="col-md-2 col-5">
+                                <h4 class="text-white page-description fw-semibold pb-md-3 pb-1">Company</h4>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">About
+                                            us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Career</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">FAQs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-7">
+                                <h4 class="text-white page-description fw-semibold pb-md-3 pb-1">Services</h4>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Mobile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Front End</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Back End</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Database</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">CMS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold opacity-50 text-white">Infra &amp; DevOps</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-12 pt-md-0 pt-5">
+                                <h4 class="text-white page-description fw-semibold pb-md-3 pb-1">Contact</h4>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <p class="fw-semibold text-white"> Rajpath Rangoli Road, Rajpath Club
+                                            Road, Sindhubhavan Marg, Near Infostech, Bodakdev, Ahmedabad, Gujarat 380054
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fw-semibold text-lightGreen">(+91) 079
+                                            2550
+                                            6946</a>
+                                    </li>
+                                    <li>
+                                        <p class="fw-semibold text-white"> codershut.co.in</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <div class="mb-5">
+                            <p class="p-1 text-white">©copyright by Codershut. All right reserved</p>
+                        </div>
+                        <div>
+                            <ul class="d-flex align-items-center">
+                                <li>
+                                    <a href="#" class="d-block" target="_blank">
+                                        <div
+                                            class="social-icon bg-lightGreen d-flex align-items-center justify-content-center">
+                                            <img src="https://codershut.in/images/facebook.png" alt="Facebook"
+                                                class="img-fluid">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block" target="_blank">
+                                        <div
+                                            class="social-icon bg-lightGreen d-flex align-items-center justify-content-center">
+                                            <img src="https://codershut.in/images/instagram.png" alt="Instagram"
+                                                class="img-fluid">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block" target="_blank">
+                                        <div
+                                            class="social-icon bg-lightGreen d-flex align-items-center justify-content-center">
+                                            <img src="https://codershut.in/svg/linkedin.svg" alt="Linkedin"
+                                                class="img-fluid">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block" target="_blank">
+                                        <div
+                                            class="social-icon bg-lightGreen d-flex align-items-center justify-content-center">
+                                            <img src="https://codershut.in/images/twitter.png" alt="Twitter"
+                                                class="img-fluid">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+        var reveals = document.querySelectorAll('.reveal');
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var revealTop = reveals[i].getBoundingClientRect().top;
+            var revealPoint = 150;
+
+            if (revealTop < windowHeight - revealPoint) {
+                reveals[i].classList.add('revealActive');
+            } else {
+                reveals[i].classList.remove('revealActive');
+            }
+        }
+    }
+</script>
+
+</html>
